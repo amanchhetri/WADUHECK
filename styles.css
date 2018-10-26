@@ -1,0 +1,245 @@
+/* body{
+    background: -webkit-linear-gradient(left, #d6f9ff 0%,#9ee8fa 100%);
+} */
+
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+		background-color: rgba(0,0,0,0.4)
+}
+
+ul li a:hover{
+	background-color: black;
+}
+
+#header{
+    background-image: url('https://images.pexels.com/photos/1139541/pexels-photo-1139541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headerset{
+	padding-top: 250px;
+	box-sizing: border-box;
+
+}
+
+.headerset h2{
+	font-size: 42px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.headerset h1{
+	font-size: 72px;
+	font-weight:bold;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* ---------SERVICE ---------- */
+
+#service{
+	padding: 60px;
+	background-color:#343a40;
+	color:white;
+}
+
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#service  p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#service h1{
+		font-family: 'Ubuntu', sans-serif;
+}
+
+.rowsetting{
+	margin: 80px 0px;
+}
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background-color: black;
+}
+.fa-heart{
+	margin-top:20px;
+
+}
+.fa-fire{
+	margin-top:22px;
+}
+
+.fa-music{
+	margin-top: 20px;
+}
+
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d;
+}
+
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight:bold;
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* ----------------PORTFOLIO */
+.portfolio{
+  height:auto;
+	width: 100%;
+	padding: 0px 0px 0px;
+}
+
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 60px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.portfolio p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.marginsetting{
+	margin-top: 40px;
+}
+
+.teambg{
+	background-image: url('https://images.pexels.com/photos/8395/lights-night-unsharp-blured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+
+}
+
+/* ------------------oUR TEAM */
+
+.ourteambg{
+	background-image: url('https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+
+}
+
+.ourteam{
+
+	padding: 60px 0px 50px;
+	width: 100%;
+
+}
+
+.ourteam h1{
+	padding-top : 40px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.ourteam h4{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.ourteam  p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.teamsetting{
+	margin-top:70px;
+}
+
+/* ------------------CONTACT------------------------------------ */
+
+.contactbg{
+	background-image: url('https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+}
+
+.contactbg h3{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.contact-form{
+    background: #fff;
+  /*  margin-top: 10%;
+    margin-bottom: 5%; */
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.social .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:white;
+}
+
+.social{
+	background-image: url('https://images.pexels.com/photos/1305660/pexels-photo-1305660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+
+}

@@ -1,18 +1,19 @@
-/* body{
-    background: -webkit-linear-gradient(left, #d6f9ff 0%,#9ee8fa 100%);
-} */
-
+/*     SMOOTH SCROLLING   */
 html{
 	scroll-behavior: smooth;
 }
+
+/*    NAVBAR OPACITY */
 .navbar{
 		background-color: rgba(0,0,0,0.4)
 }
 
+/*    NAVBAR HOVER*/
 ul li a:hover{
 	background-color: black;
 }
 
+/*    BACKGROUND IMAGE   */
 #header{
     background-image: url('https://images.pexels.com/photos/1139541/pexels-photo-1139541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     width: 100%;
@@ -38,54 +39,53 @@ ul li a:hover{
 	font-family: 'Raleway', sans-serif;
 }
 
-/* ---------SERVICE ---------- */
+/* --------- QUOTES ---------- */
 
-#service{
+/*       QUOTE CONTAINER BG   */
+#quote{
 	padding: 60px;
 	background-color:#343a40;
 	color:white;
 }
 
-.ourservices h1{
-	font-size: 50px;
-	font-weight: bold;
-}
-
-#service  p{
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-#service h1{
+/*---- FOR QUOTE LINE*/
+#quote h1{
 		font-family: 'Ubuntu', sans-serif;
+}
+
+/*    FOR WORK HARD LINE*/
+#quote  p{
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .rowsetting{
 	margin: 80px 0px;
 }
 
+/*  FOR ICON CIRCLE*/
 .imgsetting{
 	border-radius: 50%;
 	height: 100px;
 	width: 100px;
 	background-color: black;
 }
+
+/* HEART ICON*/
 .fa-heart{
 	margin-top:20px;
-
 }
+
+/*    FIRE ICON*/
 .fa-fire{
 	margin-top:22px;
 }
 
+/*   MUSIC ICON   */
 .fa-music{
 	margin-top: 20px;
 }
 
-.rowsetting p{
-	padding: 10px;
-	color: #6c757d;
-}
-
+/*   FOR LOVE, INSPIRATIONAL, HATRED */
 .rowsetting h2{
 	margin-top: 20px;
 	font-weight:bold;
@@ -93,21 +93,40 @@ ul li a:hover{
 	font-family: 'Ubuntu', sans-serif;
 }
 
-/* ----------------PORTFOLIO */
-.portfolio{
+/*  FOR QUOTES CONTENT*/
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d;
+}
+
+
+/* ----------------SNAPS ----------------*/
+
+/*     SNAP BG     */
+.snapbg{
+	background-image: url('https://images.pexels.com/photos/8395/lights-night-unsharp-blured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+}
+
+.snaps{
   height:auto;
 	width: 100%;
 	padding: 0px 0px 0px;
 }
 
-.portfolio h1{
+/*   FOR SNAPS HEADING*/
+.snaps h1{
 	font-size: 50px;
 	font-weight: bold;
 	padding-top: 60px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.portfolio p{
+/*       FOR FAV*/
+.snaps p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -115,50 +134,41 @@ ul li a:hover{
 	margin-top: 40px;
 }
 
-.teambg{
-	background-image: url('https://images.pexels.com/photos/8395/lights-night-unsharp-blured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-size: 100% 100%;
-	background-attachment: fixed;
-	width: 100%;
-	height: auto;
 
-}
+/* -------- ANIME --------- */
 
-/* ------------------oUR TEAM */
-
-.ourteambg{
+/*    FOR ANIME BG*/
+.animebg{
 	background-image: url('https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	width: 100%;
 	height: auto;
-
 }
 
-.ourteam{
-
+.anime{
 	padding: 60px 0px 50px;
 	width: 100%;
-
 }
 
-.ourteam h1{
+/*   FOR ANIME HEAD*/
+.anime h1{
 	padding-top : 40px;
 	font-size: 50px;
 	font-weight: bold;
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.ourteam h4{
+/*   FOR NARUTO KURAMA KAKASHI*/
+.anime h4{
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.ourteam  p{
+/*   FOR FAV & SHIPPU   */
+.anime p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
-.teamsetting{
-	margin-top:70px;
-}
+
 
 /* ------------------CONTACT------------------------------------ */
 
@@ -225,6 +235,17 @@ ul li a:hover{
     cursor: pointer;
 }
 
+/*--------------- SOCIAL ---------*/
+
+/*  FOR SOCIAL BG   */
+.social{
+	background-image: url('https://images.pexels.com/photos/1305660/pexels-photo-1305660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	background-attachment: fixed;
+	width: 104%;
+	height: auto;
+}
+ /*  FOR ICONS  */
 .social .fa {
   padding: 20px;
   font-size: 30px;
@@ -235,11 +256,13 @@ ul li a:hover{
   color:white;
 }
 
-.social{
-	background-image: url('https://images.pexels.com/photos/1305660/pexels-photo-1305660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-size: 100% 100%;
-	background-attachment: fixed;
-	width: 100%;
-	height: auto;
+/*   FOR FOLLOW ME  */
+.social h3{
+	color:white;
+	padding-top: 20px;
+}
 
+/*  FOR HOVER EFFECT  */
+.social a:hover{
+	color:orange;
 }

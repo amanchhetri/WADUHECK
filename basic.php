@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width-device-width, initial-scale=1">
 
-		<title> Bootstrap 4 </title>
+		<title> Thanks </title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css"	href="styles.css">
@@ -18,7 +18,7 @@
      <div class="row">
      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
        <div class="container">
-         <a href="" class="navbar-brand text-danger font-weight-bold"> WADUHECK </a>
+         <a href="index.html" class="navbar-brand text-danger font-weight-bold"> WADUHECK </a>
 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
            <span class="navbar-toggler-icon"> </span>
@@ -28,19 +28,19 @@
            <ul class="navbar-nav ml-auto">
 
              <li class="navbar-item">
-               <a href="" class="nav-link text-white"> QUOTES </a>
+               <a href="http://amanchhetri.tk/index.html#quote" class="nav-link text-white"> QUOTES </a>
              </li>
 
              <li class="navbar-item">
-               <a href="" class="nav-link text-white"> SNAPS </a>
+               <a href="http://amanchhetri.tk/index.html#snaps" class="nav-link text-white"> SNAPS </a>
              </li>
 
              <li class="navbar-item">
-               <a href="" class="nav-link text-white"> ANIME </a>
+               <a href="http://amanchhetri.tk/index.html#anime" class="nav-link text-white"> ANIME </a>
              </li>
 
              <li class="navbar-item">
-               <a href="contact.html" class="nav-link text-white"> CONTACT </a>
+               <a href="http://amanchhetri.tk/index.html#contact" class="nav-link text-white"> CONTACT </a>
              </li>
 
            </ul>
@@ -55,6 +55,7 @@
      <div class="container text-center headerset text-white" >
 
        <h2> Your Response Has Been Recorded </h2>
+       <h2> Thank You </h2>
        <a href="index.html"> <button  class="btn btn-warning text-white btn-lg "> HOME </button> </a>
      </div>
    </div>

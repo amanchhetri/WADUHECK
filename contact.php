@@ -8,10 +8,10 @@
   $msg = $_POST["txtMsg"];
 
   $myfile = fopen("contact.txt", "a") or die("Unable to open file!");
-  $txt = "User email : $name
-  User name : $mail
-  User phone : $phone
-  User message : $msg \n
+  $txt = "User Name : $name
+  User E-mail : $mail
+  User Phone Number: $phone
+  User Message : $msg \n
   ";
   fwrite($myfile, $txt);
   require("basic.php");
